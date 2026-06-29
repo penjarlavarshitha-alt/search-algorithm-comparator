@@ -11,7 +11,7 @@ import Recommendation from "./pages/Recommendation";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/search-algorithm-comparator">
       <div className="layout">
         <Sidebar />
 
